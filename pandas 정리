@@ -1,0 +1,18 @@
+# numpy.random 모듈 3가지
+1) randint: 균일분포의 정수 난수 1개
+2) rand: 0부터 1사이의 균일분포에서 난수 matrix array 생성
+3) randn: 가우시안 표준 정규분포에서 matrix array 생성
+
+# 상관계수(correlation coefficient): 두 변수 사이의 통계적 관계를 표현하기 위해 특정한 상관관계의 정도를 수치적으로 나타낸 계수
+# 공분산(covariation): 2개의 확률변수의 선형관계를 나타내는 값
+
+# np.random.permutaion(): 무작위로 섞인 배열을 만듦
+1) (숫자): 해당 숫자까지(포함X)의 숫자를 가진 배열 생성
+2) (배열): 모양은 유지한 채로 무작위로 배열 생성
+
+# reindex(): 기본적인 데이터 정렬 메서드
+✔️ reindex는 특정 축을 따라 입력된 레이블 배열에 따라 데이터 순서 조정
+✔️ 상당히 자유도가 높음
+
+# apply함수: apply(함수이름, axis=0 or 1)
+# lambda: 함수를 *한 줄로 표현하는 익명 함수 기법
